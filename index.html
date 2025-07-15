@@ -1,21 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Welcome Eva Mae Conag</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f9f9f9;
-      text-align: center;
-      padding-top: 100px;
-    }
-    h1 {
-      color: #2c3e50;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azure Static Web App</title>
+    <style>
+        body {
+            font-family: "Segoe UI", sans-serif;
+            text-align: center;
+            padding: 40px;
+        }
+        .logo {
+            margin-bottom: 40px;
+        }
+        .main-message {
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .sub-message {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+        .card-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .card {
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .card img {
+            height: 40px;
+            margin-bottom: 10px;
+        }
+        .card-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .card-text {
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        .card a {
+            color: #0078D4;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-  <h1>Welcome Eva Mae Conag</h1>
+    <div class="logo">
+        <img src="https://azure.microsoft.com/favicon.ico" alt="Microsoft Azure Logo">
+        <h1>Microsoft Azure</h1>
+    </div>
+    <div class="main-message">🎉 Welcome Eva Mae Conag!</div>
+    <div class="sub-message">Your site will be ready soon—please check back later.</div>
+    <p>Recommended next steps:</p>
+    <div class="card-container">
+        <div class="card">
+            <img src="https://learn.microsoft.com/favicon.ico" alt="Azure Logo">
+            <div class="card-title">Learn about Azure Static Web Apps</div>
+            <div class="card-text">See how SWA automatically builds and deploys web apps from a code repository to Azure (and more).</div>
+            <a href="https://learn.microsoft.com/en-us/azure/static-web-apps/overview">SWA overview</a>
+        </div>
+        <div class="card">
+            <img src="https://code.visualstudio.com/favicon.ico" alt="VS Code Logo">
+            <div class="card-title">Create a static web app from VS Code</div>
+            <div class="card-text">Code, build, and debug your web and cloud apps with the Azure Static Web Apps extension for VS Code.</div>
+            <a href="https://marketplace.visualstudio.com/items?itemName=ms-azuretools.azure-static-web-apps">Download the extension</a>
+        </div>
+        <div class="card">
+            <img src="https://github.githubassets.com/favicons/favicon.svg" alt="GitHub Logo">
+            <div class="card-title">Install the Static Web Apps CLI</div>
+            <div class="card-text">Locally develop your app—testing, debugging, auth, and more—using the SWA CLI.</div>
+            <a href="https://learn.microsoft.com/en-us/azure/static-web-apps/cli">Install now</a>
+        </div>
+    </div>
 </body>
 </html>
